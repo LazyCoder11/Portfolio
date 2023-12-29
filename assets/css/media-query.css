@@ -1,0 +1,41 @@
+@media screen and (max-width: 768px) {
+    nav{
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+    .image-gif {
+        display: none;
+    }
+
+    .container-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact-form {
+        width: 100%;
+        padding: 0;
+    }
+
+    input,
+    textarea {
+        width: 200px;
+    }
+
+    .btn-contact {
+        width: 25%;
+        font-size: 15px;
+        padding: 10px 10px;
+    }
+
+    .main-menu {
+        display: none;
+    }
+    .hamburgericon{
+        display: block;
+    }
+    .hamburgericon ul{
+        display: block;
+    }
+}

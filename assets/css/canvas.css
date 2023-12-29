@@ -1,0 +1,7 @@
+#canvas{
+    position: absolute;
+    /* z-index: 1; */
+    width: 100%;
+    mix-blend-mode: screen;
+    filter: blur(2px);
+}
